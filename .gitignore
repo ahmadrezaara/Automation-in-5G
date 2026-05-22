@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.eggs/
+dist/
+build/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vector stores & model weights (too large for git)
+rag_vector/
+classifier_rag_vector/
+*.bin
+*.safetensors
+*.gguf
+
+# Generated test outputs
+test_dataset/outLLAMA*/
+classifier_test_dataset/outLLAMA*/
+
+# OS
+.DS_Store
+Thumbs.db
